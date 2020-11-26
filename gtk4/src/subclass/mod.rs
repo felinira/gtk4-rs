@@ -28,6 +28,7 @@ pub mod media_file;
 pub mod media_stream;
 pub mod native_dialog;
 pub mod popover;
+pub mod range;
 pub mod recent_manager;
 pub mod scrollable;
 pub mod shortcut_manager;
@@ -66,6 +67,7 @@ pub mod prelude {
     pub use super::media_stream::MediaStreamImpl;
     pub use super::native_dialog::NativeDialogImpl;
     pub use super::popover::PopoverImpl;
+    pub use super::range::RangeImpl;
     pub use super::recent_manager::RecentManagerImpl;
     pub use super::scrollable::ScrollableImpl;
     pub use super::shortcut_manager::ShortcutManagerImpl;
