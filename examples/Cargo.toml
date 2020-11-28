@@ -33,3 +33,6 @@ name = "clock"
 
 [[bin]]
 name = "composite_template"
+
+[[bin]]
+name = "entry_undo"
